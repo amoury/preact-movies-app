@@ -10,6 +10,7 @@ import Recommendations from '../routes/recommendations';
 import Movies from '../routes/movies';
 import TV from '../routes/tv';
 import Favorites from '../routes/favorites';
+import GalleryPage from '../routes/gallery';
 
 export default class App extends Component {
 	
@@ -31,6 +32,7 @@ export default class App extends Component {
 						<Movies path="/movies/" />
 						<TV path= "/tv" />
 						<Favorites path="/favorites" />
+						<GalleryPage path="/gallery/:category-page" />
 					</Router>
 				</ThemeProvider>
 			</div>

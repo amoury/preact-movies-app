@@ -4,12 +4,12 @@ import Header from '../header';
 
 const Layout = styled.div`
   background: ${({ theme }) => theme.primary };
-`
-
-const Main = styled.div`
-  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+  `
+  
+  const Main = styled.div`
   min-height: 100vh;
-  width: 100vw;
   color: ${({ theme }) => theme.textColor};
 `
 
